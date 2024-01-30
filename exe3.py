@@ -5,6 +5,6 @@ def remove_empty_strings(input_list):
             result.append(string)
     return result
 
-# Test the function
+
 input_list = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 print(remove_empty_strings(input_list))

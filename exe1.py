@@ -1,10 +1,9 @@
-
-# Test the functions
-numbers = [2, 3, 4, 5, 10]
-squared_list = []
-    for num in numbers:
+def square_for_loop(number):
+    squared_list = []
+    for num in number:
         squared_list.append(num ** 2)
-        print(squared_list)
+    return squared_list
 
 
-#print("Output:", square(numbers))
+numbers = [1, 2, 3, 4, 5]
+print("Using for loop:", square_for_loop(numbers))

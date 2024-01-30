@@ -7,7 +7,7 @@ def concatenate_lists(list1, list2):
     return lst
 
 
-# Test the function
+
 list1 = ["Hello ", "take "]
 list2 = ["Dear", "Sir"]
 print(concatenate_lists(list1, list2))
